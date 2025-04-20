@@ -1,0 +1,26 @@
+{
+  "name": "page-objects-patteren",
+  "version": "1.0.0",
+  "description": "Page Objects Pattern with Typescript",
+  "homepage": "https://github.com/SamiraWije/webdriverio-page-objects-pattern#readme",
+  "bugs": {
+    "url": "https://github.com/SamiraWije/webdriverio-page-objects-pattern/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamiraWije/webdriverio-page-objects-pattern.git"
+  },
+  "license": "ISC",
+  "author": "Samira Wijesekara",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.12.4",
+    "@wdio/local-runner": "^9.12.4",
+    "@wdio/mocha-framework": "^9.12.3",
+    "@wdio/spec-reporter": "^9.12.3"
+  }
+}
