@@ -5,7 +5,9 @@ import Navbar from "../pageobjects/components/Navbar"
 
 
 describe("Login Test", () => {
-    it("Should not loggin with the invalid username and password", async () => {
+    it.only("Should not loggin with the invalid username and password", async () => {
+        await LoginPage.setFullHDResolution()
+        await LoginPage.setNetworkSpeedTo3G()
         await HomePage.visit()
         await Navbar.clickSignInButton()
         await LoginPage.assertLoginPageIsVisible()
